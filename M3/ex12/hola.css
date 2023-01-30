@@ -1,0 +1,138 @@
+/******************************************** Reset */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/******************************************** Cuerpo y contenedor */
+
+body {    
+    background-image: url("./dark-wood.jpg");    
+    font-family: Georgia, Times, serif;       
+}
+
+#container {
+    width: 800px;
+    margin: 0px auto;        
+}
+
+/******************************************** Cabecera */
+
+#logo {
+    background-image: url(./header.jpg);
+    background-repeat: no-repeat;
+    height: 130px;
+}
+
+/******************************************** Menú de navegación */
+
+nav {
+    color: #ffffff;
+    background-color: #aeaca8;    
+}
+
+nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav li a:hover,
+nav li a.current {
+    color: #000000;
+}
+
+/******************************************** Contenedor central */
+
+#content{
+    background-color: #ffffff;
+    overflow: auto;
+}
+
+/******************************************** Contenido principal */
+
+main {
+    float: left;
+    width: 550px;     
+}
+
+article {
+    overflow: auto;
+    padding-right: 10px;        
+}
+
+article figure {
+    float: left;
+    width: 220px;            
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid #eeeeee;
+}
+
+article figure img {
+    width: 100%;
+}
+
+article figcaption {
+    font-size: 0.9em;
+}
+
+article h2 {
+    margin: 20px 0px 5px 0px;
+    padding: 0px;
+    font-weight: normal;
+}
+
+article h3 {
+    margin: 0px 0px 10px 0px;
+    color: #de6581;
+    font-weight: normal;
+}
+
+/******************************************** Barra lateral */
+
+aside {
+    width: 250px;
+    float: right;
+    padding: 0px 20px;
+}
+
+aside h2 {
+    padding: 30px 0px 10px 0px;
+    color: #de6581;
+}
+
+#popular a {
+    display: block;
+    padding: 10px;
+    text-decoration:none;
+    color: #de6581; 
+    border-bottom: 1px solid #eeeeee;
+}
+
+#popular a:hover {
+    color: #985d6a;
+    background-color: #efefef;
+}
+
+
+/******************************************** Pie */
+
+footer {    
+    color: #ffffff;
+    background-color: #aeaca8;       
+    padding: 10px;
+}
+
+/*********************************************/
